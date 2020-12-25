@@ -145,22 +145,22 @@ public class main : MonoBehaviour
                     continue;
                 }
 
-                if (points[y, x, 0] != 0 && points[y, x, 0] != 4)
+                if ((points[y, x, 0] != 0 && points[y, x, 0] != 4) || (points[y, x, 1] != 0 && points[y, x, 1] != 4))
                 {
                     continue;
                 }
 
-                if (points[y, x + 1, 0] != 0 && points[y, x + 1, 0] != 3)
+                if ((points[y, x + 1, 0] != 0 && points[y, x + 1, 0] != 3) || (points[y, x + 1, 1] != 0 && points[y, x + 1, 1] != 3))
                 {
                     continue;
                 }
 
-                if (points[y + 1, x + 1, 0] != 0 && points[y + 1, x + 1, 0] != 2)
+                if ((points[y + 1, x + 1, 0] != 0 && points[y + 1, x + 1, 0] != 2) || (points[y + 1, x + 1, 1] != 0 && points[y + 1, x + 1, 1] != 2))
                 {
                     continue;
                 }
 
-                if (points[y + 1, x, 0] != 0 && points[y + 1, x, 0] != 1)
+                if ((points[y + 1, x, 0] != 0 && points[y + 1, x, 0] != 1) || (points[y + 1, x, 1] != 0 && points[y + 1, x, 1] != 1))
                 {
                     continue;
                 }
