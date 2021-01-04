@@ -577,8 +577,8 @@ MonoBehaviour:
   point: {fileID: 792657673021439889, guid: 20efe7feb8a2541f19d09482d64dd87d, type: 3}
   fill_button: {fileID: 1241405962}
   plane: {fileID: 853461934}
-  use_colors: 1
-  auto_fill: 1
+  use_colors: 0
+  auto_fill: 0
 --- !u!1 &1122821476
 GameObject:
   m_ObjectHideFlags: 0
